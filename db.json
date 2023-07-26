@@ -1,0 +1,322 @@
+{
+  "seller": [
+    {
+      "name": "anil",
+      "email": "anil@seller.com",
+      "password": "191394",
+      "id": 1
+    },
+    {
+      "userName": "shivam",
+      "password": "191394",
+      "email": "shiv@123",
+      "id": 2
+    },
+    {
+      "userName": "ankit",
+      "password": "191394",
+      "email": "anki@123",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "Laptop",
+      "price": "400000",
+      "color": "iteWh",
+      "category": "ankit",
+      "discription": "lxlmnqqwertcx",
+      "Url": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1683563708/Croma%20Assets/Computers%20Peripherals/Laptop/Images/268284_0_nhykfv.png?tr=w-640",
+      "id": 1
+    },
+    {
+      "name": "Puma",
+      "price": "1500",
+      "color": "Black",
+      "category": "shoes",
+      "discription": "fskjscnsnclsc",
+      "Url": "https://5.imimg.com/data5/MT/MB/EO/SELLER-14290347/men-555-black-fashion-lace-up-shoes-500x500.jpg",
+      "id": 2
+    },
+    {
+      "name": "Sanddisk",
+      "price": "800",
+      "color": "black",
+      "category": "sfw",
+      "discription": "feevvc",
+      "Url": "https://m.media-amazon.com/images/I/51UKnksIdGL._SL1275_.jpg",
+      "id": 3
+    },
+    {
+      "name": "Suit",
+      "price": "8000",
+      "color": "black",
+      "category": "chi cho",
+      "discription": "china",
+      "Url": "https://i.etsystatic.com/24100781/r/il/240b56/3628602546/il_794xN.3628602546_3lfx.jpg",
+      "id": 4
+    },
+    {
+      "name": "Shirt",
+      "price": "600",
+      "color": "Green",
+      "category": "shirt",
+      "discription": "cotton",
+      "Url": "https://assets.ajio.com/medias/sys_master/root/20220629/sFkx/62bc0339aeb26921af4f49b4/-473Wx593H-469234311-green-MODEL.jpg",
+      "id": 5
+    },
+    {
+      "name": "Car",
+      "price": "2000",
+      "color": "Silver",
+      "category": "Toy",
+      "discription": "For childeren",
+      "Url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRsw6LtfAyz83r3rwpknibdvF3HAI_Rp4GoJVNz1vGCcxyNgU8P_jEENk3YQUVjOwvtfcGP-kXuyqrI-wDD7trqXTrI5s1bPXP7WXRmXuIZ",
+      "id": 6
+    },
+    {
+      "name": "Elephant",
+      "price": "1000",
+      "color": "Silver",
+      "category": "Toy",
+      "discription": "For childeren",
+      "Url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ22YFHGKjdn4ie39EhLqC09Bqz7h0TO8Sk5_cjUSk2jY-HbR1GrC0ZnhXrmya1nSu3ENNru3czmD7WwxFd2vO3nfqnS_h_GM3qWr0DIzvrmsYuGgzsfNEOZw",
+      "id": 7
+    },
+    {
+      "name": "jeans",
+      "price": "1300",
+      "color": "Blue",
+      "category": "cloths",
+      "discription": "ffscsaadfddd",
+      "Url": "https://rukminim2.flixcart.com/image/832/832/xif0q/jean/r/j/7/32-sp1010-sparky-original-imagq465rnzg4dxp.jpeg?q=70",
+      "id": 8
+    }
+  ],
+  "Users": [
+    {
+      "name": "scsc",
+      "email": "cscs",
+      "password": "wwsc",
+      "id": 1
+    },
+    {
+      "name": "shivam",
+      "email": "shivam@123",
+      "password": "191394",
+      "id": 2
+    },
+    {
+      "name": "Ankit",
+      "email": "ankit@abc",
+      "password": "191394",
+      "id": 3
+    },
+    {
+      "name": "ankit",
+      "email": "ankit",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "Ankit",
+      "email": "ankit@abc",
+      "password": "191394",
+      "id": 5
+    },
+    {
+      "name": "Ankit",
+      "email": "dsdvsdv",
+      "password": "dsvsdvsd",
+      "id": 6
+    },
+    {
+      "name": "Shivam kumar mishra",
+      "email": "sdvsv",
+      "password": "fdbdfbd",
+      "id": 7
+    },
+    {
+      "name": "sfsgs",
+      "email": "dbdfbd",
+      "password": "dgbdgb",
+      "id": 8
+    },
+    {
+      "name": "fgeg",
+      "email": "dfbfgb",
+      "password": "gfbfg",
+      "id": 9
+    },
+    {
+      "name": "dbd",
+      "email": "bgfbf",
+      "password": "bgnn",
+      "id": 10
+    },
+    {
+      "name": "Ankit",
+      "email": "cscs",
+      "password": "191394",
+      "id": 11
+    },
+    {
+      "name": "Ankit",
+      "email": "sdfcsc",
+      "password": "fvsvs",
+      "id": 12
+    },
+    {
+      "name": "zcsv",
+      "email": "vdvs",
+      "password": "vs",
+      "id": 13
+    }
+  ],
+  "cart": [
+    {
+      "name": "Laptop",
+      "price": "400000",
+      "color": "iteWh",
+      "category": "ankit",
+      "discription": "lxlmnqqwertcx",
+      "Url": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1683563708/Croma%20Assets/Computers%20Peripherals/Laptop/Images/268284_0_nhykfv.png?tr=w-640",
+      "quantity": 1,
+      "userId": 2,
+      "productId": 1,
+      "id": 1
+    },
+    {
+      "name": "Puma",
+      "price": "1500",
+      "color": "Black",
+      "category": "shoes",
+      "discription": "fskjscnsnclsc",
+      "Url": "https://5.imimg.com/data5/MT/MB/EO/SELLER-14290347/men-555-black-fashion-lace-up-shoes-500x500.jpg",
+      "quantity": 12,
+      "userId": 2,
+      "productId": 2,
+      "id": 2
+    },
+    {
+      "name": "Elephant",
+      "price": "1000",
+      "color": "Silver",
+      "category": "Toy",
+      "discription": "For childeren",
+      "Url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ22YFHGKjdn4ie39EhLqC09Bqz7h0TO8Sk5_cjUSk2jY-HbR1GrC0ZnhXrmya1nSu3ENNru3czmD7WwxFd2vO3nfqnS_h_GM3qWr0DIzvrmsYuGgzsfNEOZw",
+      "quantity": 5,
+      "userId": 2,
+      "productId": 7,
+      "id": 3
+    },
+    {
+      "0": {
+        "name": "Laptop",
+        "price": "400000",
+        "color": "iteWh",
+        "category": "ankit",
+        "discription": "lxlmnqqwertcx",
+        "Url": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1683563708/Croma%20Assets/Computers%20Peripherals/Laptop/Images/268284_0_nhykfv.png?tr=w-640",
+        "id": 1,
+        "quantity": 1
+      },
+      "1": {
+        "name": "Laptop",
+        "price": "400000",
+        "color": "iteWh",
+        "category": "ankit",
+        "discription": "lxlmnqqwertcx",
+        "Url": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1683563708/Croma%20Assets/Computers%20Peripherals/Laptop/Images/268284_0_nhykfv.png?tr=w-640",
+        "id": 1,
+        "quantity": 2
+      },
+      "userId": null,
+      "id": 4
+    },
+    {
+      "name": "Sanddisk",
+      "price": "800",
+      "color": "black",
+      "category": "sfw",
+      "discription": "feevvc",
+      "Url": "https://m.media-amazon.com/images/I/51UKnksIdGL._SL1275_.jpg",
+      "quantity": 1,
+      "productId": 3,
+      "userId": null,
+      "id": 5
+    },
+    {
+      "name": "Car",
+      "price": "2000",
+      "color": "Silver",
+      "category": "Toy",
+      "discription": "For childeren",
+      "Url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRsw6LtfAyz83r3rwpknibdvF3HAI_Rp4GoJVNz1vGCcxyNgU8P_jEENk3YQUVjOwvtfcGP-kXuyqrI-wDD7trqXTrI5s1bPXP7WXRmXuIZ",
+      "quantity": 1,
+      "productId": 6,
+      "userId": null,
+      "id": 6
+    },
+    {
+      "name": "Puma",
+      "price": "1500",
+      "color": "Black",
+      "category": "shoes",
+      "discription": "fskjscnsnclsc",
+      "Url": "https://5.imimg.com/data5/MT/MB/EO/SELLER-14290347/men-555-black-fashion-lace-up-shoes-500x500.jpg",
+      "quantity": 1,
+      "userId": 2,
+      "productId": 2,
+      "id": 7
+    },
+    {
+      "name": "Car",
+      "price": "2000",
+      "color": "Silver",
+      "category": "Toy",
+      "discription": "For childeren",
+      "Url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRsw6LtfAyz83r3rwpknibdvF3HAI_Rp4GoJVNz1vGCcxyNgU8P_jEENk3YQUVjOwvtfcGP-kXuyqrI-wDD7trqXTrI5s1bPXP7WXRmXuIZ",
+      "quantity": 1,
+      "productId": 6,
+      "userId": null,
+      "id": 8
+    },
+    {
+      "name": "jeans",
+      "price": "1300",
+      "color": "Blue",
+      "category": "cloths",
+      "discription": "ffscsaadfddd",
+      "Url": "https://rukminim2.flixcart.com/image/832/832/xif0q/jean/r/j/7/32-sp1010-sparky-original-imagq465rnzg4dxp.jpeg?q=70",
+      "quantity": 1,
+      "productId": 8,
+      "userId": null,
+      "id": 9
+    },
+    {
+      "name": "Laptop",
+      "price": "400000",
+      "color": "iteWh",
+      "category": "ankit",
+      "discription": "lxlmnqqwertcx",
+      "Url": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1683563708/Croma%20Assets/Computers%20Peripherals/Laptop/Images/268284_0_nhykfv.png?tr=w-640",
+      "quantity": 1,
+      "userId": 2,
+      "productId": 1,
+      "id": 10
+    },
+    {
+      "name": "Laptop",
+      "price": "400000",
+      "color": "iteWh",
+      "category": "ankit",
+      "discription": "lxlmnqqwertcx",
+      "Url": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1683563708/Croma%20Assets/Computers%20Peripherals/Laptop/Images/268284_0_nhykfv.png?tr=w-640",
+      "quantity": 1,
+      "userId": 2,
+      "productId": 1,
+      "id": 11
+    }
+  ]
+}

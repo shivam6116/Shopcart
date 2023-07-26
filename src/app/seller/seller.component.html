@@ -1,0 +1,26 @@
+<div class="selerAuth">
+    <div *ngIf="!showLogin" class="signup">
+        <h1>Seller Sign Up</h1>
+        <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)"  class="commonForm">
+            <input class="commonInput" type="text" ngModel name="userName" placeholder="Enter name"/>
+            <input class="commonInput" type="password" ngModel name="password" placeholder="Enter password"/>
+            <input class="commonInput" type="text" ngModel name="email" placeholder="Enter Email"/>
+            <button class="commonBtn">signup</button>
+            <a class="toggleLink" (click)="openLogin()" >Already have Account? Click Log In</a>
+        </form>
+    </div>
+    <!-- Login Area-->
+    <div *ngIf="showLogin" class="signup">
+        <h1>Seller Log In</h1>
+        <form #sellerLogIn="ngForm" (ngSubmit)="logInPage(sellerLogIn.value)"  class="commonForm">
+            <input class="commonInput" type="text" ngModel name="email" placeholder="Enter Email"/>
+            <input class="commonInput" type="password" ngModel name="password" placeholder="Enter password"/>
+            
+            <button class="commonBtn">Log In</button>
+
+            <a class="toggleLink" (click)="openSignUp()" >Dont have Account? Register here</a>
+            <p>{{authError}}</p>
+        </form>
+    </div>
+
+</div>

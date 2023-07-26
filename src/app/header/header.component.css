@@ -1,0 +1,75 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+/* .carousel slide{
+    border: 10x double #000;
+    
+} */
+
+.nav h1{
+    color: rgb(5, 52, 242);
+    margin: 0;
+    font-size: 40px;
+}
+
+.nav ul{
+
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.nav li{
+    padding-left: 15px;
+    padding-top: 15px;
+
+}
+.nav li a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.nav .nav-search{
+    margin-top: 5px;
+    flex: 1;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.nav .nav-search input{
+    flex: 1;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height: 39px;
+    border-right: 0px;
+}
+
+.nav .nav-search button{
+    /* flex: 1; */
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height: 39px;
+    border-left: 0px;
+}
+
+.suggestedResult{
+    position: absolute;
+    display: list-item !important;
+    z-index: 10;
+    background-color: white;
+    width: 300px;
+    top: 40px;
+    border: 1px solid #ddd;
+}
+.suggestedResult li{
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.suggestedResult li a{
+    cursor: pointer;
+    color: blueviolet;
+}
