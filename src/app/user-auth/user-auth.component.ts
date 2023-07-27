@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Login, SignUp, cart, product } from '../data-type';
 import { UserService } from '../services/user.service';
 import { ProductServiceService } from '../services/product-service.service';
+import {faUser } from "@fortawesome/free-solid-svg-icons";
 
 @Component({
   selector: 'app-user-auth',
@@ -12,6 +13,7 @@ export class UserAuthComponent implements OnInit {
   constructor(private service :UserService,private productService:ProductServiceService){}
   showLogin:Boolean=true;
   authError:string="";
+  userIcon=faUser
 
   ngOnInit(): void {
     this.service.userAuthReload();

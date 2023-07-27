@@ -1,10 +1,10 @@
 table{
     text-align: left;
-    color: blueviolet;
+    color: rgb(31, 7, 247);
     border-collapse: collapse;
 }
 table td, table th{
-    border: 1px solid blueviolet;
+    border: 1px solid rgb(2, 18, 251);
     padding: 10px;
     min-height:160px ;
 }

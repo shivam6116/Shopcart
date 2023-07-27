@@ -1,0 +1,51 @@
+.main{
+    display: flex;
+    height: 100vh;
+}
+.updatForm{
+    flex: 1;
+}
+.updatForm h1{
+    text-align: center;
+    color: blue;
+
+}
+.commonForm{
+    padding: 20px;
+    color: blue;
+}
+.commonForm textarea{
+    resize: vertical; /* Allow vertical resizing */
+  min-height: 100px; /* Set a minimum height for the textarea */
+  width: 100%; 
+  
+}
+.class1{
+    flex: 1;
+    /* border: 1px solid #000; */
+    margin: auto; 
+}
+.class1 img{
+    
+    height: 300px;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    margin-bottom: 400px;
+    
+}
+.class2{
+    /* border: 1px solid #000;  */
+    flex: 1;
+    margin: auto;
+}
+
+.class2 img{
+    
+    height: 100px;
+    bottom: 0;
+    right: 0;
+    height: 300px;
+    margin-top: 100px;
+    
+}

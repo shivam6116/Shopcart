@@ -1,8 +1,8 @@
 <nav class="nav">
-    <h1 routerLink="Home" >Shopcart</h1>
+    <h1 routerLink="Home" >Shopcart<fa-icon  [icon]="truckIcon"></fa-icon></h1>
     <div *ngIf="menuType ==='default'" class="nav-search" >
         <input #searchInput (keyup)="searchProduct($event)" (blur)="hideSearch()" type="text" placeholder="Search"  >
-        <button (click)="submitSearch(searchInput.value)" >Search</button>
+        <button (click)="submitSearch(searchInput.value)" ><fa-icon  [icon]="searchIcon"></fa-icon>Search</button>
         <ul class="suggestedResult" *ngIf="searchResult">
             <li *ngFor="let items of searchResult" >
                 <a (mousedown)="redirectToDetails(items.id)">{{items.name}}</a>
@@ -12,11 +12,11 @@
     </div>
     <div [ngSwitch]='menuType'>
         <ul *ngSwitchCase="'default'"   >
-            <li><a routerLink="Home">Home</a></li>
-            <li><a routerLink="Seller">Seller</a></li>
-            <li><a routerLink="User Auth">login/Sign Up</a></li>
+            <li><a routerLink="Home"><fa-icon  [icon]="homeIcon"></fa-icon>Home</a></li>
+            <li><a routerLink="Seller"><fa-icon  [icon]="usersIcon"></fa-icon>Seller</a></li>
+            <li><a routerLink="User Auth"><fa-icon  [icon]="userIcon"></fa-icon>User</a></li>
             
-            <li><a href="#">Cart({{cartItems}})</a></li>
+            <li><a href="#"><fa-icon  [icon]="cartIcon"></fa-icon>Cart({{cartItems}})</a></li>
         </ul>
 
         <ul *ngSwitchCase="'user'"   >
@@ -25,7 +25,7 @@
             <li><a routerLink="User Auth">{{userName}} </a></li>
             <li><a (click)="userLogout()">Log Out</a></li>
             
-            <li><a href="#">Cart({{cartItems}})</a></li>
+            <li><a href="#"><fa-icon  [icon]="cartIcon"></fa-icon>Cart({{cartItems}})</a></li>
         </ul>
         
  

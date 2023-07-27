@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from "@angular/router";
 import { ProductServiceService } from '../services/product-service.service';
 import { product } from '../data-type';
+import {faHouse,faMagnifyingGlass,faShoppingCart,faTruckFast,faUser,faStore } from "@fortawesome/free-solid-svg-icons";
 
 @Component({
   selector: 'app-header',
@@ -14,6 +15,12 @@ export class HeaderComponent implements OnInit {
   userName:string='';
   searchResult:undefined|product[];
   cartItems=0;
+  homeIcon=faHouse
+  searchIcon=faMagnifyingGlass
+  cartIcon=faShoppingCart
+  usersIcon=faStore
+  userIcon=faUser
+  truckIcon=faTruckFast
 
   constructor(private route:Router, private service : ProductServiceService){}
   ngOnInit(): void {

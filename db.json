@@ -23,9 +23,9 @@
     {
       "name": "Laptop",
       "price": "400000",
-      "color": "iteWh",
-      "category": "ankit",
-      "discription": "lxlmnqqwertcx",
+      "color": "White",
+      "category": "Laptop",
+      "discription": "HP ZBook Firefly 12th Gen Intel Core i7-1255U 40.6 cm (16 Inch) WUXGA/IPS/Anti-Glare Display/16GB RAM/ 1TB SSD/NVIDIA T550 4GB(4 GB GDDR6)/Win 11/ B&O/Backlit KB/FPR/ G9 Workstation PC",
       "Url": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1683563708/Croma%20Assets/Computers%20Peripherals/Laptop/Images/268284_0_nhykfv.png?tr=w-640",
       "id": 1
     },
@@ -33,26 +33,26 @@
       "name": "Puma",
       "price": "1500",
       "color": "Black",
-      "category": "shoes",
-      "discription": "fskjscnsnclsc",
+      "category": "Shoes",
+      "discription": "Run Strong Running Shoes For Men  (White)",
       "Url": "https://5.imimg.com/data5/MT/MB/EO/SELLER-14290347/men-555-black-fashion-lace-up-shoes-500x500.jpg",
       "id": 2
     },
     {
       "name": "Sanddisk",
       "price": "800",
-      "color": "black",
-      "category": "sfw",
-      "discription": "feevvc",
+      "color": "Black",
+      "category": "Pendrive",
+      "discription": "Durable metal Charming appearance which brings a great sense of style. Electronic plating after printing technic (Anti-fake) Lidless, compact design with integrated strap-hole Temperature Proof, Shock-Proof, and vibration-proof",
       "Url": "https://m.media-amazon.com/images/I/51UKnksIdGL._SL1275_.jpg",
       "id": 3
     },
     {
       "name": "Suit",
       "price": "8000",
-      "color": "black",
+      "color": "Black",
       "category": "chi cho",
-      "discription": "china",
+      "discription": "Men Two Piece Suit Solid Suit",
       "Url": "https://i.etsystatic.com/24100781/r/il/240b56/3628602546/il_794xN.3628602546_3lfx.jpg",
       "id": 4
     },
@@ -91,6 +91,15 @@
       "discription": "ffscsaadfddd",
       "Url": "https://rukminim2.flixcart.com/image/832/832/xif0q/jean/r/j/7/32-sp1010-sparky-original-imagq465rnzg4dxp.jpeg?q=70",
       "id": 8
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "category": "",
+      "discription": "",
+      "Url": "",
+      "id": 9
     }
   ],
   "Users": [
@@ -317,6 +326,42 @@
       "userId": 2,
       "productId": 1,
       "id": 11
+    },
+    {
+      "name": "Elephant",
+      "price": "1000",
+      "color": "Silver",
+      "category": "Toy",
+      "discription": "For childeren",
+      "Url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ22YFHGKjdn4ie39EhLqC09Bqz7h0TO8Sk5_cjUSk2jY-HbR1GrC0ZnhXrmya1nSu3ENNru3czmD7WwxFd2vO3nfqnS_h_GM3qWr0DIzvrmsYuGgzsfNEOZw",
+      "quantity": 1,
+      "productId": 7,
+      "userId": null,
+      "id": 12
+    },
+    {
+      "name": "Sanddisk",
+      "price": "800",
+      "color": "Black",
+      "category": "Pendrive",
+      "discription": "Durable metal Charming appearance which brings a great sense of style. Electronic plating after printing technic (Anti-fake) Lidless, compact design with integrated strap-hole Temperature Proof, Shock-Proof, and vibration-proof",
+      "Url": "https://m.media-amazon.com/images/I/51UKnksIdGL._SL1275_.jpg",
+      "quantity": 1,
+      "userId": 2,
+      "productId": 3,
+      "id": 13
+    },
+    {
+      "name": "Sanddisk",
+      "price": "800",
+      "color": "Black",
+      "category": "Pendrive",
+      "discription": "Durable metal Charming appearance which brings a great sense of style. Electronic plating after printing technic (Anti-fake) Lidless, compact design with integrated strap-hole Temperature Proof, Shock-Proof, and vibration-proof",
+      "Url": "https://m.media-amazon.com/images/I/51UKnksIdGL._SL1275_.jpg",
+      "quantity": 1,
+      "userId": 2,
+      "productId": 3,
+      "id": 14
     }
   ]
 }

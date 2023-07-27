@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+}
+.class1{
+    flex: 1;
+}
+.class2{
+    flex: 1;
+    margin-top: 60px;
+}
+.class1 img{
+    height: 600px;
+    margin: auto;
+}
+
+.class2 h1{
+    text-align: center;
+}
+.commonForm{
+    padding: 20px;
+}

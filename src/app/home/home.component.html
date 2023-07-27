@@ -5,7 +5,7 @@
 			<div class="picsum-img-wrapper">
 				<a routerLink="/Details/{{item.id}}">
 					<img class="productHeaderImg" src="{{item.Url}}" alt="Random first slide" /></a>
-			</div>
+			</div> 
 			<div class="carousel-caption">
 				<h3>{{item.name}} </h3>
 				<p>{{item.discription}}</p>
@@ -15,11 +15,11 @@
 </div>
 
 <div class="Homeproductlist" >
-	<h1>Trendy Products</h1>
+	<h1>Trending Products<fa-icon  [icon]="trendIcon"></fa-icon></h1>
 	<div class="row">
 		<div class="col-sm-3" *ngFor="let item of trendyproduct">
 			<div class="product-item">
-				<img src="{{item.Url}}" alt="">
+				<img src="{{item.Url}}">
 
 				<div class="product-details">
 					<div class="product-detail">
@@ -31,8 +31,8 @@
 					<div class="product-color"> {{item.color}}
 					</div>
 					<div class="product-footer">
-						<a routerLink="/Details/{{item.id}}"> View Details</a>
-						<a href="">Add to cart</a>
+						<a routerLink="/Details/{{item.id}}"><fa-icon  [icon]="viewIcon"></fa-icon></a>
+						<a href=""><fa-icon  [icon]="cartIcon"></fa-icon> </a>
 					</div>
 				</div>
 			</div>

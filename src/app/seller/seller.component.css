@@ -1,7 +1,48 @@
+.Seller{
+    display: flex !important;
+    /* justify-content: space-between; */
+}
+.selerAuth{
+    flex: 1;
+    width: 50%;
+}
+.image{
+    width: 50%;
+    flex: 1;
+    margin: auto;
+    width: 400px;
+    /* height: 100px; */
+}
+.sellerimg{
+    /* width: 200px; */
+    height: 600px;
+    flex: 1;
+    background: cover;
+    width: 600px;
+    margin-left: 50px;
+}
+
+.sellerApun{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    background-color: rgba(63, 151, 233, 0.737);
+    margin: auto;
+    padding: 40px;
+    border-radius: 50px;
+}
+
 .signup{
     text-align: center;
     margin-top: 80px;
-    color: blueviolet;
+    color: rgba(6, 45, 240, 0.711);
+    /* margin: auto; */
+}
+.signup p{
+    color: white;
+    /* size: 10px; */
+    margin: auto;
 }
 
 .toggleLink{
@@ -10,3 +51,6 @@
     text-align: left;
     cursor: pointer;
 }
+
+
+

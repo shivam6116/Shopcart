@@ -13,18 +13,21 @@ body{
     flex-direction: column;
     margin: auto;
     width: 300px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(199, 203, 203);
 }
 .commonInput{
     height: 35px;
     margin-bottom: 20px;
     padding-left: 10px;
-    border: 1px solid blueviolet;
-    color: blueviolet;
+    border: 1px solid rgb(32, 4, 243);
+    color: rgb(4, 8, 245);
     border-radius: 5px;
 }
 .commonBtn{
     height: 35px;
-    border: 1px solid blueviolet;
+    border: 1px solid rgb(58, 5, 248);
     margin: 5px;
 
 }

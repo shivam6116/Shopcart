@@ -1,5 +1,9 @@
-<div>
-    <h1>Add product</h1>
+<div class="main">  
+<div class= "class1">
+    <img src="../../assets/5704293.jpg" alt="">
+</div>
+<div class="class2">
+    <h1>Add New Product</h1>
     <form #addproduct=ngForm class="commonForm" (ngSubmit)="addUserProduct(addproduct.value)">
         <p>{{productMsg}}</p>
         <input type="text" class="commonInput" placeholder="Enter product name" name="name" ngModel />
@@ -11,4 +15,5 @@
         <input type="text" class="commonInput" placeholder="Image Url" name="Url" ngModel />
         <button class="commonBtn">Add Product</button>
     </form>
+</div>
 </div>
