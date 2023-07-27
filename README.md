@@ -46,3 +46,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ![update](https://github.com/shivam6116/Shopcart/assets/71956466/024b1392-cee2-4970-9489-2cf161b931c7)
 
+![add](https://github.com/shivam6116/Shopcart/assets/71956466/f2de54b3-4ffc-4269-9800-df3557ed1b3a)
+
+![remobe](https://github.com/shivam6116/Shopcart/assets/71956466/b5de51da-4ff6-4983-9540-9d0c8a637c1a)
+
+![addproduct](https://github.com/shivam6116/Shopcart/assets/71956466/87fe1648-956b-42c4-a7e5-74b58a0a4843)
